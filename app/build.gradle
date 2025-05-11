@@ -87,6 +87,11 @@ dependencies {
     //// ACCOMPANIST ////
     implementation "com.google.accompanist:accompanist-permissions:$accompanist_version"
 
+    //// TRANSL ////
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    //// JSON ////
+    implementation 'org.json:json:20231013'
+
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
@@ -94,4 +99,6 @@ dependencies {
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
+    implementation "androidx.compose.runtime:runtime-saveable:1.5.1"
+
 }
